@@ -1,0 +1,112 @@
+*{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(40, 40, 40, 0.804);
+    padding: 20px 80px 10px 80px;
+    position: relative;
+}
+.one{
+    display: flex;
+    flex-direction: row-reverse;
+    color: azure;
+}
+.two{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    color: azure;
+} 
+.one i{ 
+    margin-right:20px;
+    color: azure;
+} 
+.two i{
+    margin-right:20px ;
+}
+.two h1{
+    margin-right: 30px;
+}
+
+
+section{
+    background-image: url("photo/WhatsApp\ Image\ 2022-10-07\ at\ 10.37.39\ PM.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: -1;
+}
+.data{
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    margin-bottom: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.data p{
+    font-size: 30px;
+    position: absolute;
+    left: 60px;
+    margin: 20px;
+}
+.search{
+    position: absolute;
+    top:390px;
+    left: 480px;
+    background-color: white;
+    height:60px ;
+    width:620px ;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+input{
+    border:none;
+    height: 50px;
+    width:600px;
+}
+::placeholder{
+    text-align: right;
+    font-size: 22px;
+}
+.sear{
+    width: 80px;
+    height: 50px;
+    background-color: rgba(0, 128, 0, 0.888);
+    color: white;
+    border: none;
+}
+.links{
+    border: 1px solid rgba(189, 176, 176, 0.9);
+    height: 220px;
+    width:0px ;
+    position: absolute;
+    top: 68px;
+    right: 5px;
+    background-color: rgb(243, 243, 243);
+}
+.links a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    margin: 13px;
+    text-align: center;
+}
+.links a:hover{
+    color: orangered;
+}
+.close{
+    text-align: ;
+}
